@@ -20,6 +20,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## 1.To Write a C program that illustrates files copying 
+```
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -70,13 +71,14 @@ int main(int argc, char *argv[]) {
     return EXIT_SUCCESS;
 }
 
-
+```
 
 
 
 
 
 ## 2.To Write a C program that illustrates files locking
+```
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -141,14 +143,18 @@ int main(int argc, char *argv[]) {
     close(fd);
     return 0;
 }
+```
 
 
 
 
 ## OUTPUT
-![Image1](images/77.png)
-![Image2](images/88.png)
-![Image3](images/99.png)
+<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/e30a2f96-a815-4726-bf08-da76a8181969" />
+
+<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/bbbec224-294d-4463-b04c-e9a14f110139" />
+
+<img width="955" height="1030" alt="image" src="https://github.com/user-attachments/assets/b97528d4-9d7b-4137-b09b-533579df193d" />
+
 
 
 
